@@ -1,7 +1,9 @@
 # readme
 
-UTN/Trabajo Práctico Integrador (TPI)/TUP
+#UTN/Trabajo Práctico Integrador (TPI)/TUP
+
 Acosta Critina / Lucero Abril
+
 Gestión de Datos de Países en Python: 
 filtros, ordenamientos y estadísticas
 Tecnologías utilizadas
@@ -11,7 +13,7 @@ CSV (manejo de archivos)
 Funciones y estructuras de datos
 Git / GitHub (control de versiones y entrega)
 
-Objetivo del proyecto:
+#Objetivo del proyecto:
 
 Desarrollar una aplicación en Python que permita gestionar información sobre países, aplicando:
 - Listas y diccionarios
@@ -22,7 +24,7 @@ Desarrollar una aplicación en Python que permita gestionar información sobre p
 El sistema lee los datos desde un archivo CSV y permite realizar consultas, obtener indicadores clave y mostrar resultados de forma clara y organizada.
 
 
-Estructura de datos del proyecto
+#Estructura de datos del proyecto
 .API.py	Conexión y carga de datos desde la API REST Countries
 .menú.py	Interfaz principal del programa (menú interactivo)
 .paises.csv	Archivo local con los datos de los países
@@ -33,7 +35,7 @@ Modulo
     .funciones_ordenamiento.py (Funciones de ordenamiento por distintos criterios)
 pycache/	Archivos compilados automáticamente
 
-Funcionalidades principales
+#Funcionalidades principales
 
 Solicitud a la API:
 El programa realiza una petición con el módulo requests de Python.
