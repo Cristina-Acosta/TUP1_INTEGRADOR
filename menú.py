@@ -1,9 +1,9 @@
 #Script de Menú con llamado a funciones e importación de módulos
 from API import paises_lista
-from Modulos.Buscar_por_nombre import buscar_pais
-from Modulos.funciones_filtrado import filtrar_continente,filtrar_valor
-from Modulos.funciones_ordenamiento import ordenar_paises
-from Modulos.estadisticas import mayor_menor_poblacion, funcion_promedio
+from Buscar_por_nombre import buscar_pais
+from funciones_filtrado import filtrar_continente,filtrar_valor
+from funciones_ordenamiento import ordenar_paises
+from estadisticas import mayor_menor_poblacion, funcion_promedio
 
 def menu():
     paises = paises_lista()
@@ -81,4 +81,5 @@ def menu():
                 print(" Opción inválida. Intente nuevamente.")
 
 if __name__ == "__main__":
+
     menu()
